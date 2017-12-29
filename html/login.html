@@ -5,6 +5,7 @@
     <title>userCenter</title>
     <link rel="stylesheet" href="../css/comment.css">
     <link rel="stylesheet" href="../css/login.css">
+    <script type="application/javascript" src="../js/jquery-3.2.1.min.js"> </script>
 </head>
 <body>
     <div class="wrap">
@@ -85,13 +86,35 @@
                     </ul>
 
                     <ul class="login_sub" id="login_sub">
-                        <li><input type="submit" class="zc-btn btn-login" value="登录"></li>
+                        <li><input id="login" type="submit" class="zc-btn btn-login" value="登录"></li>
                         <li><div class="zc_login_rbox">还不是会员？<a href="##" id="anther" rel="nofollow">立即注册</a> </div></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="footer"></div>
     </div>
+    <script type="application/javascript">
+        var login = document.getElementById('login')
+        var normal_id = document.getElementById('normal_id')
+        var xpasstext = document.getElementById('xpasstext')
+        login.onclick = function () {
+            var reg = /^.{6,16}$/
+            if (normal_id.value == '') {
+                alert('账号不能为空')
+            } else if (xpasstext.value == '') {
+                alert('密码不能为空')
+            } else if(!(/^1[34578]\d{9}$/.test(normal_id.value))) {
+                alert("手机号码有误，请重填");
+                return false
+            } else if (!(reg.test(xpasstext.value))) {
+                alert("请输入正确的密码")
+            } else {
+                $.ajax({
+                    type: 'post',
+                    url: '',
+                })
+            }
+        }
+    </script>
 </body>
 </html>
