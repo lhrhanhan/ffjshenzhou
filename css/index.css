@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-width: 1200px;
+    width: 100%;
+    height: 58px;
+    border-top: 2px solid #eeb81a;
+    background-color: #1b2b3b;
+    position: relative;
+    z-index: 1999;
+}
+
+.nav {
+    height: 58px;
+    z-index: 11;
+    float: left;
+}
+
+.nav a {
+    display: block;
+    width: 211px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 58px;
+    background: url(https://image.zuchecdn.com/newversion/news/common/logo.png) no-repeat;
+    z-index: 10;
+}
+
+.nav-menu {
+    overflow: hidden;
+    margin-left: 225px;
+    float: left;
+}
+
+.nav-menu li {
+    list-style: none;
+    float: left;
+}
+
+.nav-menu li a {
+    display: block;
+    padding: 0 9px;
+    line-height: 58px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-login {
+    position: absolute;
+    top: 0;
+    width: 230px;
+    right: 152px;
+    text-align: center;
+    color: #fabe00;
+}
+
+.colfabe00 {
+    color: #fabe00;
+    font-size: 14px;
+}
+
+.colc8c8ceml20 {
+    color: #c8c8ce;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.wdl {
+    font-size: 16px;
+    color: #fabe00;
+    line-height: 58px;
+}
+
+.wdl a{
+    text-decoration: none;
+}
+
+.tel {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    z-index: 10;
+}
+
+.zc_phone_bd {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    z-index: 10;
+}
+
+.p-re {
+    position: relative;
+}
+
+.zc-tel {
+    width: 147px;
+    height: 17px;
+    background-position: 0 0;
+    color: #c8c8ce;
+
+}
+
+.zc_ga_phonebox {
+    display: none;
+    position: absolute;
+    top: 16px;
+    left: -25px;
+    z-index: 12;
+}
+
+.zc_phone_bd:hover .zc_ga_phonebox{
+    display: block;
+}
+
+.nav-menu li a:hover {
+    color: #fabe00;
+}
+
+.nav-item-first {
+    color: #fabe00;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 500px;
+}
+
+.footer {
+    min-width: 1200px;
+    width: 100%;
+    background-color: #1b2b3b;
+    color: #6985a5;
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    line-height: 37px;
+}
+
+.zc_copyright .yellowmailt {
+    color: #eeb81a;
+    text-decoration: none;
+}
+
+.news_title {
+    background: url(https://image.zuchecdn.com/newversion/news/common/index_news_bg.png);
+    position: absolute;
+    width: 285px;
+    height: 48px;
+    top: 167px;
+    left: 0;
+    text-align: center;
+}
+
+.news_title p {
+    color: white;
+    font-size: 14px;
+    line-height: 48px;
+    width: 285px;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+.more ul .haha {
+    position: relative;
+    list-style: none;
+}
+
+.more{
+
+}
+
+.zc_szkx {
+    width: 520px;
+    height: 100px;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 1px solid #dadadf;
+    position: relative;
+}
+
+.zc_szkx p {
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    font-size: 30px;
+    top: 30px;
+    left: 180px;
+    background-color: #fff;
+}
+
+.more ul {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+
