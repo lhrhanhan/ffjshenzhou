@@ -7,6 +7,8 @@
     width: 100%;
     min-width: 1200px;
     padding: 30px 0;
+    background-color: #f2f3f5;
+
 }
 
 .reg-title {
@@ -100,5 +102,61 @@
     color: #93939e;
     border: 1px solid #e9ebee;
     border-right: none;
+}
+
+.lfwtk {
+    width: 400px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    color: #60606c;
+    padding-left: 3px;
+    margin-bottom: 30px;
+}
+
+.lfwtk .zc-yes {
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+a {
+    color: #6ab0ff;
+    text-decoration: none;
+}
+
+.zc-btn {
+    width: 320px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fabe00;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    font-family: "Microsoft YaHei";
+    cursor: pointer;
+    margin-left: 44px;
+}
+
+.con-kuang {
+    float: left;
+}
+
+.con_right {
+    width: 463px;
+    height: 558px;
+    float: right;
+    border-left: 1px dashed #e9ebee;
+    padding-left: 52px;
+    margin-top: 37px;
+}
+
+.reg-title {
+    line-height: 36px;
+    margin-bottom: 26px;
+    font-size: 16px;
+    color: #60606c;
 }
 
