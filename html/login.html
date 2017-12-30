@@ -112,6 +112,15 @@
                 $.ajax({
                     type: 'post',
                     url: '',
+                    data: `"username" : ${normal_id.value},"password" : ${xpasstext.value}`,
+                    success: function (data) {
+                        alert('登录成功')
+                    },
+                    error: function(XMLHttpRequest, textStatus, errorThrown) {
+                        alert(XMLHttpRequest.status);
+                        alert(XMLHttpRequest.readyState);
+                        alert(textStatus);
+                    }
                 })
             }
         }
