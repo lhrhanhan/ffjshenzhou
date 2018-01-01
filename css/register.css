@@ -160,3 +160,11 @@ a {
     color: #60606c;
 }
 
+#nextButton-dis {
+     display: none;
+ }
+
+#nextButton-one {
+    display: none;
+}
+
