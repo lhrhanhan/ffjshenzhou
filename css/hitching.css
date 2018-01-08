@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 12px;
+}
+
+.sf_banner {
+    height: 300px;
+    background: url(http://fimg.zuchecdn.com/upload/web/HomePage/HeadFigure/2017/sf_banner.jpg) no-repeat center top;
+    min-width: 1190px;
+    width: 100%;
+}
+
+.w1190 {
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.sf_selectCar {
+    width: 515px;
+    height: 185px;
+    border: solid 1px #dcdcdc;
+    background: #fff;
+    position: absolute;
+    margin-top: 44px;
+}
+
+.sf_selectCar h3 {
+    height: 50px;
+    line-height: 50px;
+    color: #1a2a38;
+    font-size: 20px;
+    padding-left: 50px;
+    font-family: "微软雅黑",arial,Simsun,sans-serif;
+}
+
+.font_normal {
+    font-weight: 400;
+}
+
+.sf_selectCarCont {
+    padding-left: 50px;
+    position: relative;
+}
+
+.height20 {
+    height: 20px;
+    font-size: 12px;
+}
+
+label {
+    cursor: default;
+}
+
+.sf_selectCarCont input.w265 {
+    padding: 0 0 0 5px;
+    width: 265px;
+}
+
+input.citySD {
+    background: url(https://imagepre.zuchecdn.com/newversion/common/input_select.png) no-repeat center right;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    vertical-align: middle;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    border: 1px solid #e2e2e2;
+}
+
+input.bluewords {
+    color: #61a1df;
+}
+
+.height13 {
+    height: 14px;
+    line-height: 13px;
+    font-size: 12px;
+}
+
+input.graybde2 {
+    border: 1px solid #e2e2e2;
+}
+
+.sf_storeSelect {
+    width: 168px;
+    background: #fff;
+    border: 1px solid #61a1df;
+    padding: 1px;
+    position: absolute;
+    z-index: 99999;
+    left: 122px;
+    top: 0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-box-shadow: 0 0 8px #d4d4d4;
+    -webkit-box-shadow: 0 0 8px #d4d4d4;
+    box-shadow: 0 0 8px #d4d4d4;
+}
+
+.sf_selectCarCont .inder_cd {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.index_btn_Blue, .index_btn_Blue:active, .index_btn_Blue:hover {
+    width: 74px;
+    height: 74px;
+    display: inline-block;
+    background-position: -84px -106px;
+    font: 18px/74px "微软雅黑";
+    text-align: center;
+    color: #fff;
+}
+
+.index_btn_Blue, .sz_btnBlue, .sz_btnBlue104, .sz_btnBlueSmall, .sz_btnGray, .sz_btnGreen, .sz_btnOrange, .sz_btnOrange104 {
+    background-image: url(https://imagepre.zuchecdn.com/newversion/common/bgbtns.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.w1190 {
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.sfLeft {
+    width: 818px;
+    float: left;
+    background: #f6fafb;
+}
+
+.m20_0 {
+    margin: 20px 0;
+}
+
+.sfRight {
+    width: 348px;
+    float: right;
+    background: #f6fafb;
+}
+
+.sfCityBox {
+    border: solid 1px #dbe4eb;
+    border-top: 0;
+    background: #fff;
+}
+
+.fr {
+    float: right;
+}
+
+.m20_0 {
+    margin: 20px 0;
+}
+
+.pages {
+    border-top: solid 1px #dbe4eb;
+    border-left: solid 1px #dbe4eb;
+    overflow: hidden;
+    zoom: 1;
+    background: #fff;
+}
+
+.borderBlueB {
+    border-bottom: solid 1px #dbe4eb;
+}
+
+.sfCity {
+    background: #eaf6fd;
+    line-height: 40px;
+}
+
+.sfSearch {
+    height: 36px;
+    line-height: 36px;
+    width: 816px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+.sfCity {
+    background: #eaf6fd;
+    line-height: 40px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.searchCityItems {
+    border-top: solid 1px #dbe4eb;
+}
+
+#moreCity {
+    background: url(https://image.zuchecdn.com/newversion/common/arrowDown.png) no-repeat right center;
+    display: inline-block;
+    padding-right: 13px;
+}
+
+.sfCity span {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 18px;
+    float: left;
+    border-right: solid 1px #dbe4eb;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sfCity span.curr, .sfCity span:hover {
+    border-top: solid 1px #61a1df;
+    color: #61a1df;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fontBlue {
+    color: #61a1df;
+}
+
+.sfSearch {
+    height: 36px;
+    line-height: 36px;
+    width: 816px;
+}
+
+.sfSearch span {
+    display: inline-block;
+    border-right: solid 1px #dbe4eb;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sz_arrowGray {
+    width: 9px;
+    height: 5px;
+    display: inline-block;
+    background: url(https://imagepre.zuchecdn.com/newversion/common/order.png) no-repeat -59px -26px;
+    margin: 3px 0 0 6px;
+}
+
+.sf_carSelect {
+    width: 223px;
+    background: #fff;
+    border: 2px solid #61a1df;
+    padding: 1px;
+    padding-bottom: 10px;
+    position: absolute;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    -moz-box-shadow: 0 0 8px #d4d4d4;
+    -webkit-box-shadow: 0 0 8px #d4d4d4;
+    box-shadow: 0 0 8px #d4d4d4;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.sf_carSelect ul li.curr {
+    height: 28px;
+    line-height: 28px;
+    color: #61a1df;
+    border-bottom: dashed 1px #dbe4eb;
+    color: #61a1df;
+}
+
+.modeList {
+    height: 250px;
+    max-height: 250px;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+.sf_carSelect ul li {
+    height: 22px;
+    line-height: 22px;
+    padding-left: 13px;
+    border-bottom: dashed 1px #f3f3f3;
+    color: #848484;
+    cursor: pointer;
+}
+
+.red {
+    color: red;
+}
+
+.sfSearch span {
+    display: inline-block;
+    border-right: solid 1px #dbe4eb;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.w229 {
+    width: 229px;
+}
+
+.w179 {
+    width: 179px;
+}
+
+.sfCarList ul li {
+    height: 155px;
+    border-bottom: dashed 1px #dbe4eb;
+    color: #3b3b3b;
+    line-height: 22px;
+}
+
+.sfCarList ul li>div {
+    float: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.line_h24 {
+    line-height: 24px;
+}
+
+.f14w {
+    font-size: 14px;
+    font-family: "微软雅黑",arial,Simsun,sans-serif;
+}
+
+.sfCarName {
+    width: 229px;
+    overflow: hidden;
+}
+
+.gray {
+    color: #848484;
+}
+
+.sfCarAddress {
+    width: 136px;
+    padding: 70px 0 0 44px;
+}
+
+.sfCarPrice {
+    width: 92px;
+    padding: 65px 0 0 26px;
+}
+
+.fontBlue {
+    color: #61a1df;
+}
+
+.sz_priceOrange {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.sz_priceOrange em.rmb {
+    width: 10px;
+    height: 16px;
+    display: inline-block;
+    font: 16px/16px "微软雅黑";
+    color: #f60;
+    float: left;
+    margin: 9px 3px 0 0;
+    _margin-right: -2px;
+}
+
+.sz_priceOrange em.num {
+    display: inline-block;
+    font: 30px/30px arial;
+    color: #f60;
+    float: left;
+    margin-right: 2px;
+}
+
+.sfCarBtn {
+    padding: 65px 0 0 18px;
+}
+
+.sz_btnOrange, .sz_btnOrange:active, .sz_btnOrange:hover {
+    width: 74px;
+    height: 32px;
+    display: inline-block;
+    background-position: 0 -64px;
+    font: bold 16px/32px "微软雅黑";
+    text-align: center;
+    color: #fff;
+}
+
+.sfCarDate {
+    width: 148px;
+    padding: 50px 0 0 33px;
+}
+
+.pages a.curr, .pages a:hover {
+    border-bottom: solid 2px #61a1df;
+    color: #61a1df;
+    text-decoration: none;
+}
+
+.pages a {
+    font-family: Arial,Helvetica,sans-serif;
+    color: #848484;
+}
+
+.pages a, .pages span {
+    display: block;
+    float: left;
+    line-height: 30px;
+    border-bottom: solid 1px #dbe4eb;
+    border-right: solid 1px #dbe4eb;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.zc_footmenu {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.zc_main {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.zc_footmenu .zc_main {
+    overflow: hidden;
+}
+
+.zc_footmenu dl.wyd {
+    width: 150px;
+    padding-right: 150px;
+}
+
+.zc_footmenu dl {
+    float: left;
+}
+
+.zc_footmenu dl.why {
+    width: 100px;
+    padding-right: 140px;
+}
+
+.zc_footmenu dl.wsj {
+    width: 150px;
+    padding-right: 110px;
+}
+
+.zc_footmenu dl.wfy {
+    width: 150px;
+}
+
+.zc_footmenu dl.wbz {
+    float: right;
+    width: 150px;
+}
+
+.zc_footmenu dl dt {
+    font-size: 16px;
+    color: #60606c;
+    padding-bottom: 15px;
+}
+
+.zc_footmenu dl dt a {
+    color: #60606c;
+}
+
+a {
+    color: #06c;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.zc_footmenu dl dd {
+    overflow: hidden;
+}
+
+.zc_footmenu dl dd a {
+    float: left;
+    min-width: 70px;
+    font-size: 12px;
+    color: #93939e;
+    line-height: 14px;
+    padding-bottom: 10px;
+}
+
+.sfRight {
+    width: 348px;
+    float: right;
+    background: #f6fafb;
+}
+
+.m20_0 {
+    margin: 20px 0;
+}
+
+.msgBind {
+    width: 348px;
+    min-height: 341px;
+    background: url(http://fimg.zuchecdn.com/upload/web/ActivityList/2017/msgBind_sf.jpg) no-repeat 7px 6px;
+}
+
+.orderBoxBlue {
+    border: solid 1px #dbe4eb;
+    border-bottom-width: 2px;
+    background: #fff;
+}
+
+fieldset, img {
+    border: none;
+    vertical-align: middle;
+}
+
+map {
+    display: inline;
+}
+
+.pl20 {
+    padding-left: 20px;
+}
+
+.sfRule h3 {
+    line-height: 50px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.borderBlueB {
+    border-bottom: solid 1px #dbe4eb;
+}
+
+.pr20 {
+    padding-right: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.pl20 {
+    padding-left: 20px;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.gray {
+    color: #848484;
+}
+
+.gray {
+    color: #484848;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
