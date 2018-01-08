@@ -205,4 +205,496 @@
     justify-items: center;
 }
 
+.zc_brand {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #e9ebee;
+    background: url(https://imagepre.zuchecdn.com/newversion/news/common/brand_bg.png);
+}
+
+.zc_main {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.zc_brand ul {
+    overflow: hidden;
+    border-right: 1px solid #e9ebee;
+    list-style: none;
+}
+
+.zc_brand ul li {
+    width: 298px;
+    float: left;
+    text-align: center;
+    border-left: 1px solid #e9ebee;
+    padding-top: 23px;
+    height: 77px;
+}
+
+.zc_brand ul li p {
+    text-align: center;
+    font-size: 16px;
+    color: #71767a;
+}
+
+.zc-yecx {
+    width: 42px;
+    height: 34px;
+    display: inline-block;
+    background: url(https://imagepre.zuchecdn.com/newversion/news/common/icon.png) no-repeat;
+    background-position: -200px 0;
+}
+
+.zc-yewd {
+    width: 29px;
+    height: 34px;
+    display: inline-block;
+    background: url(https://imagepre.zuchecdn.com/newversion/news/common/icon.png) no-repeat;
+    background-position: -260px 0;
+}
+
+.zc-yecxn {
+    width: 28px;
+    height: 34px;
+    display: inline-block;
+    background: url(https://imagepre.zuchecdn.com/newversion/news/common/icon.png) no-repeat;
+    background-position: -320px 0;
+}
+
+.zc-yelc {
+    width: 33px;
+    height: 34px;
+    display: inline-block;
+    background: url(https://imagepre.zuchecdn.com/newversion/news/common/icon.png) no-repeat;
+    background-position: -380px 0;
+}
+
+.zc_i_serve {
+    min-width: 1200px;
+    width: 100%;
+    padding: 80px 0;
+}
+
+.z-graybg {
+    background-color: #f2f3f5;
+}
+
+.zc_i_serve .zc_main {
+    position: static;
+}
+
+.zc_main {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.zc_i_serve ul {
+    overflow: hidden;
+    list-style: none;
+}
+
+.zc_i_serve ul li {
+    width: 285px;
+    height: 350px;
+    float: left;
+    background-color: #fff;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.zc_i_serve ul li h2 {
+    font-size: 20px;
+    color: #2f2f39;
+    text-align: center;
+    font-weight: 400;
+    line-height: 75px;
+    padding-top: 6px;
+}
+
+.zj {
+    background-image: url(https://imagepre.zuchecdn.com/newversion/news/common/index_icon.png);
+    background-repeat: no-repeat;
+    background-position: 0 -89px;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.cz {
+    background-image: url(https://imagepre.zuchecdn.com/newversion/news/common/index_icon.png);
+    background-repeat: no-repeat;
+    background-position: -127px -89px;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.qy {
+    background-image: url(https://imagepre.zuchecdn.com/newversion/news/common/index_icon.png);
+    background-repeat: no-repeat;
+    background-position: 0 -210px;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.sfc {
+    background-image: url(https://imagepre.zuchecdn.com/newversion/news/common/index_icon.png);
+    background-repeat: no-repeat;
+    background-position: -127px -210px;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.zc_i_serve ul li p {
+    color: #939a9f;
+    font-size: 14px;
+    text-align: center;
+    line-height: 42px;
+    padding-bottom: 18px;
+}
+
+.zc_i_serve ul li a {
+    display: block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: center;
+    color: #60606c;
+    border-radius: 3px;
+    border: 1px solid #e4e6e9;
+    background-color: #fafbfc;
+    text-decoration: none;
+}
+
+.zc_i_sale_acy {
+    min-width: 1200px;
+    width: 100%;
+}
+
+.z-graybg {
+    background-color: #f2f3f5;
+}
+
+.zc_i_sale_acy .zc_main {
+    max-width: 1332px;
+    min-width: 1200px;
+    width: 100%;
+    min-height: 754px;
+}
+
+.zc_main {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.zc_i_sale_acy h1, .zc_news h1 {
+    font-size: 30px;
+    color: #1b2939;
+    text-align: center;
+    font-weight: 400;
+    line-height: 50px;
+    padding-top: 70px;
+}
+
+.zc_i_sale_acy p.ffftitle {
+    font-size: 16px;
+    color: #71767a;
+    text-align: center;
+    line-height: 40px;
+}
+
+.activityScroll {
+    max-width: 1332px;
+    min-width: 1200px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.activityScroll .hd {
+    height: 30px;
+    background: #f4f4f4;
+    padding: 0 10px;
+    position: relative;
+}
+
+.activityScroll .bd {
+    height: 402px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.activityScroll .bd ul li {
+    float: left;
+    overflow: hidden;
+    width: 285px;
+    margin-right: 20px;
+    background-color: #fff;
+}
+
+.activityScroll .bd ul .pl10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.activityScroll .bd ul li a.ma {
+    display: block;
+    line-height: 50px;
+    font-size: 14px;
+    color: #60606c;
+    text-align: center;
+    border-top: 1px solid #edeef0;
+}
+
+.activityScroll .bd ul li h3 {
+    width: 265px;
+    font-size: 16px;
+    color: #1b2939;
+    font-weight: 400;
+    line-height: 34px;
+    padding-top: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.activityScroll .bd ul.picList li p {
+    color: #939a9f;
+    height: 42px;
+    overflow: hidden;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.activityScroll .bd ul.picList li p.f12 {
+    padding: 15px 0 10px 0;
+    height: 21px;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+.zc_but_box {
+    padding: 40px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.moreabox {
+    display: block;
+    width: 158px;
+    /* height: 40px; */
+    line-height: 40px;
+    border-radius: 3px;
+    border: 1px solid #dbdde1;
+    text-align: center;
+    color: #60606c;
+    font-size: 14px;
+    background-color: #fafbfc;
+    margin: 0 auto;
+}
+
+.zc_footmenu {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.zc_footmenu .zc_main {
+    overflow: hidden;
+}
+
+.zc_main {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.zc_footmenu dl {
+    float: left;
+}
+
+.zc_footmenu dl.wyd {
+    width: 150px;
+    padding-right: 150px;
+}
+
+.zc_footmenu dl.why {
+    width: 100px;
+    padding-right: 140px;
+}
+
+.zc_footmenu dl.wsj {
+    width: 150px;
+    padding-right: 110px;
+}
+
+.zc_footmenu dl.wfy {
+    width: 150px;
+}
+
+.zc_footmenu dl.wbz {
+    float: right;
+    width: 150px;
+}
+
+.zc_footmenu dl dt {
+    font-size: 16px;
+    color: #60606c;
+    padding-bottom: 15px;
+}
+
+.zc_footmenu dl dd {
+    overflow: hidden;
+}
+
+.zc_footmenu dl dt a {
+    color: #60606c;
+}
+
+.zc_footmenu dl dd a {
+    float: left;
+    min-width: 70px;
+    font-size: 12px;
+    color: #93939e;
+    line-height: 14px;
+    padding-bottom: 10px;
+}
+
+.zc_main {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.zc_footer_city {
+    overflow: hidden;
+}
+
+.fri_link {
+    border-top: 1px solid #32414f;
+    height: 110px;
+    padding-top: 30px;
+}
+
+.title {
+    font-size: 20px;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    top: 43px;
+    left: 50%;
+    margin-left: -70px;
+    text-align: center;
+    background-color: #1b2b3b;
+}
+
+.city_list {
+    padding: 60px 0;
+    overflow: hidden;
+    height: 190px;
+}
+
+.city_list ul {
+    border-top: 1px solid #32414f;
+    padding: 50px 0 30px 0;
+    overflow: hidden;
+}
+
+.city_list .city.cur {
+    display: block;
+}
+
+.city_list ul li {
+    text-align: right;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 5px 0;
+    margin-left: 33px;
+    float: left;
+    border-bottom: 2px solid #1b2b3b;
+}
+
+.city_list ul li.rmtext {
+    text-align: left;
+    margin-left: 12px;
+}
+
+.city_list .city a {
+    display: inline-block;
+    font-size: 14px;
+    width: 96px;
+    padding: 5px 0;
+}
+
+.zc_footer a {
+    color: #6985a5;
+}
+
+.fri_link {
+    border-top: 1px solid #32414f;
+    height: 110px;
+    padding-top: 30px;
+}
+
+.fri_link span {
+    font-size: 14px;
+    float: left;
+    line-height: 26px;
+}
+
+.fr {
+    float: right;
+}
+
+.fri_link a {
+    display: inline-block;
+    font-size: 12px;
+    width: 83px;
+    padding: 5px 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #6985a5;
+}
+
+
+.city_list ul li a {
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+}
+
+.city_list ul {
+    border-top: 1px solid #32414f;
+    padding: 50px 0 30px 0;
+    overflow: hidden;
+}
+
+.city .hot_city .cur{
+    display: block;
+}
+
+.city {
+    display: none;
+}
 
